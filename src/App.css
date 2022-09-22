@@ -1,1 +1,16 @@
+.App .container-fluid {
+  padding: 0;
+}
 
+.App-header {
+  background-image: url("../public/main-img.jpeg");
+  max-width: 100%;
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+
+.App footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
