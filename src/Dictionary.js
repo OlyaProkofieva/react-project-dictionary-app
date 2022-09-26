@@ -23,15 +23,21 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary">
-      <form className="text-center" onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Type a word"
-          onChange={handleKeywordChange}
-        />
-        <input type="submit" value="Submit" />
-      </form>
+    <div className="Dictionary text-center">
+      <div className="search-form">
+        <h1>Dictionary</h1>
+        <p>What we are searching for?</p>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            placeholder="Type a word to search"
+            className="search-input"
+            onChange={handleKeywordChange}
+          />
+          <input type="submit" value="Search" className="submit-input" />
+        </form>
+        <p className="suggestion">Such as: love, wine, yoga, etc.</p>
+      </div>
       <Results results={results} />
     </div>
   );

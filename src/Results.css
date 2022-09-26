@@ -1,0 +1,12 @@
+.Results h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 32px;
+}
+
+.Results .main-info {
+  background-color: #cebbaf;
+  margin: 20px 220px 20px 220px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px #4f1703;
+}

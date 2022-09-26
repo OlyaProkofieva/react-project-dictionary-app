@@ -9,7 +9,7 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">
+        <footer>
           <p>
             Coded by Olha Prokofieva and open-sourced on{" "}
             <a
