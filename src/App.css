@@ -1,35 +1,35 @@
 .App .container-fluid {
   padding: 0;
-  background-color: #efe6d7;
-  position: relative;
+  background-color: #eeeeee;
   min-height: 100vh;
-  color: #4f1703;
+  color: #364f6b;
   font-family: "Yantramanav", sans-serif;
 }
 
 .App-header {
-  background-image: url("../public/main-img.jpeg");
+  background-image: url("../public/main-img.jpg");
   max-width: 100%;
-  height: 120px;
+  height: 180px;
   background-position: center;
   background-size: cover;
 }
 
+.App p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
 .App footer {
   font-size: 16px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
   text-align: center;
 }
 
 .App a {
   text-decoration: none;
-  color: #4f1703;
+  color: #364f6b;
 }
 
 .App a:hover {
   text-decoration: underline;
-  color: #d9711f;
+  color: #fc5185;
 }

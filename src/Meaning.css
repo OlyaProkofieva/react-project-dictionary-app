@@ -1,0 +1,18 @@
+.Meaning {
+  background-color: #d8d2cb;
+  margin: 20px 220px 20px 220px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px #364f6b;
+  text-align: left;
+}
+
+.Meaning h3 {
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+.Meaning .definition {
+  font-size: 20px;
+  padding-bottom: 0;
+}

@@ -16,19 +16,19 @@
 }
 
 .Dictionary .search-form {
-  background-color: #cebbaf;
+  background-color: #d8d2cb;
   margin: 20px 220px 20px 220px;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 4px 4px 5px #4f1703;
+  box-shadow: 4px 4px 5px #364f6b;
 }
 
 .Dictionary .search-input {
   width: 300px;
   height: 40px;
   border-radius: 10px;
-  border: 1px solid #4f1703;
-  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #364f6b;
+  background-color: #eeeeee;
   text-align: center;
   font-size: 17px;
   transition: all 200ms ease-in-out;
@@ -36,24 +36,24 @@
 }
 
 .Dictionary .search-input:hover {
-  color: #4f1703;
+  color: #364f6b;
 }
 
 ::placeholder {
-  color: #4f1703;
+  color: #364f6b;
 }
 
 .Dictionary .submit-input {
   height: 40px;
   border-radius: 10px;
-  border: 1px solid #4f1703;
-  color: #4f1703;
-  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #364f6b;
+  color: #364f6b;
+  background-color: #eeeeee;
 }
 
 .Dictionary .submit-input:hover {
-  background-color: #d9711f;
-  color: #efe6d7;
+  background-color: #fc5185;
+  color: #eeeeee;
 }
 
 .Dictionary .suggestion {
